@@ -1,0 +1,22 @@
+{
+  "name": "@roboworld/sales-report-module",
+  "version": "1.0.0",
+  "description": "Module Quản lý Báo cáo & Kiểm soát Pipeline Sales — Roboworld. Luật nghiệp vụ thuần TypeScript, cắm vào mọi CRM.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test core/__tests__/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "exports": {
+    ".": "./core/index.ts"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
